@@ -1,1 +1,1 @@
-print the last digit of the number stored in the variable n
+prints the alphabet in lowercase, followed by a new line
