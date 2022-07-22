@@ -61,5 +61,8 @@ int change(int cents)
 			coins++;
 		}
 	}
-	return (coins);
+
+	printf("%d\n", coins);
+
+	return (0);
 }
