@@ -10,20 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, res = 1;
+	int num1, num2, prod;
 
 	if (argc != 3)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		for (a = 1; a < argc; a++)
-		{
-			res *= atoi(argv[i]);
-		}
-		printf("%d\n", res);
-	}
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	prod = num1 * num2;
+
+	printf("%d\n", prod);
+
 	return (0);
 }
