@@ -19,3 +19,16 @@ char *_strdup(char *str)
 
 	for (ind = 0; str[ind]; ind++)
 		len++;
+
+	duplicate = malloc(sizeof(char) * (len + 1));
+
+	if (duplicate == NULL)
+		return (NULL);
+
+	for (ind = 0; str[ind]; ind++)
+		duplicate[ind] = str[ind];
+
+	duplicate[len] = '\0';
+
+	return (duplicate);
+}
