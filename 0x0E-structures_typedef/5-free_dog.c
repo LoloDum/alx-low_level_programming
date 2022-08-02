@@ -1,9 +1,9 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include "dog.h"
+
 /**
- * free_dog - Entry Point
- * @d: struct to free
+ * free_dog - Frees dogs
+ * @d: The dog to be freed
  * Return: 0
  */
 void free_dog(dog_t *d)
