@@ -8,16 +8,16 @@
  */
 void free_listp(listp_t **head)
 {
-	listp_t *tmp;
+	listp_t *temp;
 	listp_t *curr;
 
 	if (head != NULL)
 	{
 		curr = *head;
-		while ((tmp = curr) != NULL)
+		while ((temp = curr) != NULL)
 		{
 			curr = curr->next;
-			free(tmp);
+			free(temp);
 		}
 		*head = NULL;
 	}
