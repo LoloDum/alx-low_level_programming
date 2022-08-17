@@ -4,7 +4,6 @@
  * sum_listint - returns the sum of all the data (n) of
  * a linked list.
  * @head: head of a list.
- *
  * Return: sum of all the data (n).
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
