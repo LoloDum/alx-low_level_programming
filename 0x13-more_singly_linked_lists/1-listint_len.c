@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
- *
  * listint_len - Number of elements in the list
  * @h: A pointer to listint_t structure
  * Return: number of elements.
